@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0px auto;
+  background-color: #f8faff;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Anton;
+  src:local("/src/assets/fonts/Anton-Regular.ttf")
+}
