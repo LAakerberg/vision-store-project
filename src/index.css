@@ -32,3 +32,8 @@ footer {
   font-family: Anton;
   src:local("/src/assets/fonts/Anton-Regular.ttf")
 }
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
